@@ -6,6 +6,7 @@
 #include <fstream>
 #include <string.h>
 #include <stdlib.h>
+#include <algorithm>
 #include <map>
 
 using namespace std;

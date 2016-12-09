@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <cassert>
+#include <algorithm>
 #include "tile.h"
 
 tile_page::tile_page() : m_width(1024), m_height(0)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\ability.cc" />
@@ -127,7 +127,6 @@
     <ClCompile Include="..\melee_attack.cc" />
     <ClCompile Include="..\mon-death.cc" />
     <ClCompile Include="..\mon-ench.cc" />
-    <ClCompile Include="..\mon-stealth.cc" />
     <ClCompile Include="..\ng-setup.cc" />
     <ClCompile Include="..\ng-wanderer.cc" />
     <ClCompile Include="..\orb.cc" />
@@ -304,6 +303,13 @@
     <ClCompile Include="..\json.cc" />
     <ClCompile Include="..\spl-pick.cc" />
     <ClCompile Include="..\hash.cc" />
+    <ClCompile Include="..\bloodspatter.cc" />
+    <ClCompile Include="..\butcher.cc" />
+    <ClCompile Include="..\godblessing.cc" />
+    <ClCompile Include="..\randbook.cc" />
+    <ClCompile Include="..\rot.cc" />
+    <ClCompile Include="..\tileweb-text.cc" />
+    <ClCompile Include="..\zotdef.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ability.h" />
@@ -345,7 +351,6 @@
     <ClInclude Include="..\ctest.h" />
     <ClInclude Include="..\dactions.h" />
     <ClInclude Include="..\database.h" />
-    <ClInclude Include="..\dbg-crsh.h" />
     <ClInclude Include="..\dbg-maps.h" />
     <ClInclude Include="..\dbg-objstat.h" />
     <ClInclude Include="..\dbg-scan.h" />
@@ -384,10 +389,8 @@
     <ClInclude Include="..\fight.h" />
     <ClInclude Include="..\files.h" />
     <ClInclude Include="..\fineff.h" />
-    <ClInclude Include="..\fixary.h" />
     <ClInclude Include="..\fixedarray.h" />
     <ClInclude Include="..\fixedvector.h" />
-    <ClInclude Include="..\fixvec.h" />
     <ClInclude Include="..\flood_find.h" />
     <ClInclude Include="..\fontwrapper-ft.h" />
     <ClInclude Include="..\food.h" />
@@ -427,7 +430,6 @@
     <ClInclude Include="..\losglobal.h" />
     <ClInclude Include="..\l_defs.h" />
     <ClInclude Include="..\l_libs.h" />
-    <ClInclude Include="..\l_los.h" />
     <ClInclude Include="..\lev-pand.h" />
     <ClInclude Include="..\lookup_help.h" />
     <ClInclude Include="..\matrix.h" />
@@ -614,7 +616,6 @@
     <ClInclude Include="..\tutorial.h" />
     <ClInclude Include="..\uncancel.h" />
     <ClInclude Include="..\unicode.h" />
-    <ClInclude Include="..\unrand.h" />
     <ClInclude Include="..\unwind.h" />
     <ClInclude Include="..\version.h" />
     <ClInclude Include="..\view.h" />
@@ -623,7 +624,6 @@
     <ClInclude Include="..\viewmap.h" />
     <ClInclude Include="..\windowmanager-sdl.h" />
     <ClInclude Include="..\windowmanager.h" />
-    <ClInclude Include="..\winhdr.h" />
     <ClInclude Include="..\wiz-dgn.h" />
     <ClInclude Include="..\wiz-dump.h" />
     <ClInclude Include="..\wiz-fsim.h" />
@@ -637,5 +637,15 @@
     <ClInclude Include="..\random-pick.h" />
     <ClInclude Include="..\spl-pick.h" />
     <ClInclude Include="..\mon-book.h" />
+    <ClInclude Include="..\bloodspatter.h" />
+    <ClInclude Include="..\butcher.h" />
+    <ClInclude Include="..\duration-data.h" />
+    <ClInclude Include="..\feature-data.h" />
+    <ClInclude Include="..\godblessing.h" />
+    <ClInclude Include="..\nearby-danger.h" />
+    <ClInclude Include="..\randbook.h" />
+    <ClInclude Include="..\rot.h" />
+    <ClInclude Include="..\tileweb-text.h" />
+    <ClInclude Include="..\zotdef.h" />
   </ItemGroup>
 </Project>
