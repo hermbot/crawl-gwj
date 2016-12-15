@@ -484,7 +484,12 @@ function coven_setup(e)
   e.kitem("a = any book good_item ident:all")
   e.kitem("b = amulet of faith randart not_cursed ident:all /\
           amulet of guardian spirit randart not_cursed ident:all /\
+<<<<<<< HEAD
           amulet of magic regeneration randart not_cursed ident:all /\
+=======
+          amulet of resist corrosion randart not_cursed ident:all /\
+          amulet of resist mutation randart not_cursed ident:all /\
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
           amulet of rage randart not_cursed ident:all /\
           amulet of reflection randart not_cursed ident:all /\
           amulet of the gourmand randart not_cursed ident:all /\

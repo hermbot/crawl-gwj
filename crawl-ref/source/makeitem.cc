@@ -125,7 +125,7 @@ static bool _is_boring_item(int type, int sub_type)
         }
         break;
     case OBJ_JEWELLERY:
-        return sub_type == AMU_NOTHING;
+        return sub_type == AMU_RESIST_MUTATION;
     default:
         break;
     }

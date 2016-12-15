@@ -906,13 +906,22 @@ BOOL:    inv
 
 # TAG_MAJOR_VERSION == 34
 NAME:    amulet of Cekugob
+<<<<<<< HEAD
 OBJ:     OBJ_JEWELLERY/AMU_DISMISSAL
+=======
+OBJ:     OBJ_JEWELLERY/AMU_WARDING
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 COLOUR:  ETC_SILVER
 TILE:    urand_cekugob
 AC:      1
 EV:      1
+<<<<<<< HEAD
 LIFE:    2
 BOOL:    elec, poison, notelep, nogen
+=======
+LIFE:    1
+BOOL:    elec, poison, notelep
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 
 NAME:    amulet of the Four Winds
 OBJ:     OBJ_JEWELLERY/AMU_NOTHING
@@ -952,7 +961,11 @@ INT:     3
 MAGIC:   2
 
 NAME:     brooch of Shielding
+<<<<<<< HEAD
 OBJ:      OBJ_JEWELLERY/AMU_REFLECTION
+=======
+OBJ:      OBJ_JEWELLERY/AMU_WARDING
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 COLOUR:   ETC_MAGIC
 TILE:     urand_brooch_of_shielding
 PLUS:     +8
@@ -1085,10 +1098,9 @@ REGEN:    1
 
 ENUM:     FINGER_AMULET
 NAME:     macabre finger necklace
-OBJ:      OBJ_JEWELLERY/AMU_NOTHING
+OBJ:      OBJ_JEWELLERY/AMU_WARDING
 TILE:     urand_finger
 COLOUR:   ETC_BONE
-LIFE:     1
 
 # TAG_MAJOR_VERSION == 34
 ENUM:     SPIDER

@@ -25,12 +25,16 @@ side effect, it also amplifies all damage dealt to the wearer, albeit to a
 lesser degree. When the effects of the amulet are severed by removing it, the
 magical backlash significantly drains the wearer.
 %%%%
+<<<<<<< HEAD
 amulet of inaccuracy
 
 An amulet that makes its wearer less accurate in melee combat and when
 targeting monsters via ranged attacks or spells.
 %%%%
 amulet of magic regeneration
+=======
+amulet of rage
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 
 An amulet that substantially increases the wearer's normal rate of magic
 regeneration. In order to function, it must first attune itself to the wearer's
@@ -44,7 +48,15 @@ amulet of rage
 
 An amulet that enables its wearer to attempt to enter a state of berserk rage.
 %%%%
+<<<<<<< HEAD
 amulet of reflection
+=======
+amulet of resist mutation
+
+This amulet protects its wearer from mutations, although not infallibly so.
+%%%%
+amulet of stasis
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 
 An amulet which exerts a force that blocks some incoming attacks, and can even
 reflect any blocked ranged attacks back towards the attacker.

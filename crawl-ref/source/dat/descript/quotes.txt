@@ -850,7 +850,7 @@ amulet of regeneration
 
 <amulet>
 %%%%
-amulet of nothing
+amulet of resist mutation
 
 <amulet>
 %%%%

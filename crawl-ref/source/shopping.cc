@@ -1022,6 +1022,7 @@ class ShopEntry : public InvEntry
 {
     ShopMenu& menu;
 
+<<<<<<< HEAD
     string get_text(bool need_cursor = false) const override
     {
         need_cursor = need_cursor && show_cursor;
@@ -1035,6 +1036,22 @@ class ShopEntry : public InvEntry
         //  * red, if this item is not purchasable even by itself.
         //  * yellow, if this item would be purchasable if you deselected
         //            something else.
+=======
+                if (base <= 0)
+                    valued += 25 * base;
+                else
+                    valued += (coefficient * base * (base + 1)) / 8;
+            }
+            else
+            {
+                switch (item.sub_type)
+                {
+                case AMU_FAITH:
+                case AMU_RESIST_MUTATION:
+                case AMU_RAGE:
+                    valued += 400;
+                    break;
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 
         // Is this too complicated? (jpeg)
         const colour_t keycol =
@@ -1088,7 +1105,13 @@ ShopMenu::ShopMenu(shop_struct& _shop, const level_pos& _pos, bool _can_purchase
 
     set_tag("shop");
 
+<<<<<<< HEAD
     init_entries();
+=======
+                case RING_LOUDNESS:
+                    valued += 75;
+                    break;
+>>>>>>> parent of ac99359... Amulet reform: remove amulet of mutation, replace with amulet of nothing
 
     update_help();
 
