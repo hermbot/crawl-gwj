@@ -180,6 +180,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_HIBERNATION,
     SPELL_CONFUSE,
     SPELL_TUKIMAS_DANCE,
+    SPELL_INVISIBILITY,
     SPELL_DAZZLING_SPRAY,
 },
 
