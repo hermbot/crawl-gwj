@@ -79,7 +79,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_VIOLENT_UNRAVELLING,
     SPELL_SILENCE,
     SPELL_DEFLECT_MISSILES,
-    SPELL_HASTE
+    SPELL_HASTE,
     SPELL_DISCORD,
 },
 
@@ -260,7 +260,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_SHATTER,
 },
 
-#if TAG_MAJOR_VERSION == 34
+
 {   // Book of Wizardry
     SPELL_FORCE_LANCE,
     SPELL_AGONY,
@@ -268,7 +268,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_HASTE,
     SPELL_SPELLFORGED_SERVITOR,
 },
-#endif
+
 
 {   // Book of Power
     SPELL_FULMINANT_PRISM,
