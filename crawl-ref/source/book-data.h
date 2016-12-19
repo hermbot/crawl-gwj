@@ -181,6 +181,7 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_HIBERNATION,
     SPELL_CONFUSE,
     SPELL_TUKIMAS_DANCE,
+    SPELL_INVISIBILITY,
     SPELL_DAZZLING_SPRAY,
     SPELL_INVISIBILITY,
 },
@@ -260,15 +261,16 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_SHATTER,
 },
 
-#if TAG_MAJOR_VERSION == 34
+
 {   // Book of Wizardry
     SPELL_FORCE_LANCE,
     SPELL_AGONY,
     SPELL_HASTE,
     SPELL_INVISIBILITY,
+    SPELL_HASTE,
     SPELL_SPELLFORGED_SERVITOR,
 },
-#endif
+
 
 {   // Book of Power
     SPELL_FULMINANT_PRISM,
@@ -296,14 +298,12 @@ static const vector<spell_type> spellbook_templates[] =
     SPELL_INVISIBILITY
 },
 
-#if TAG_MAJOR_VERSION == 34
 {   // Akashic Record
     SPELL_DISPERSAL,
     SPELL_MALIGN_GATEWAY,
     SPELL_DISJUNCTION,
     SPELL_CONTROLLED_BLINK,
 },
-#endif
 
 {   // Book of Debilitation
     SPELL_CORONA,
